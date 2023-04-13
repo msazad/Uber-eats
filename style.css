@@ -1,0 +1,496 @@
+@font-face {
+    font-family: myfont;
+    src: url(UberMoveBold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Container img{
+height: 670px;
+width: 100%;
+margin-bottom: 0px;
+}
+
+.nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 96px;
+    background-color: #fff;
+    box-shadow: rgb(226 226 226) 0px -2px 0px inset;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+
+}
+.nav1{
+    width: 20%;
+    height: 96px;
+    background-color: #fff;
+    box-shadow: rgb(226 226 226) 0px -2px 0px inset;
+    display: flex;
+}
+
+.nav2{
+    width: 20%;
+    height: 96px;
+    background-color: #fff;
+    margin-left: 60%;
+    box-shadow: rgb(226 226 226) 0px -2px 0px inset;
+    display: flex;
+}
+.menu-button img{
+    width: 23px;
+    height: 23px;
+    margin-left: 38px;
+    margin-top: 37px;
+    
+}
+.uber-eats img{
+    width: 134px;
+    height: 24px;
+    margin-left: 31px;
+    margin-top: 36px;
+}
+.login{
+    height: 48px;
+    width: 100px;
+    border-radius: 500px;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 12px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+    padding-top: 5px;
+    background-color: rgb(255,255,255);
+    border: none;
+    padding-top: 6px;
+}
+.log1{
+    width: 40%;
+}
+.log1 img{
+    width:20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 5px;
+    
+
+}
+log2{
+    width: 60%;
+    padding: 12px 16px;
+}
+.log-p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: myfont;
+    margin-top: 5px;
+    margin-left: -2px;
+  
+    
+}   
+.sign-up{
+    
+        height: 48px;
+        width: 90px;
+        border-radius: 500px;
+        display: flex;
+        margin-top: 24px;
+        margin-left: 14px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1), 0px 4px 4px rgba(0, 0, 0, 0.04);
+        padding-top: 5px;
+        background-color: black;
+        border: none;
+    
+}
+.sign{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: myfont;
+    margin-top: 6px;
+    margin-left: 17px;
+    color: #fff;
+}
+
+
+.para1 h1{
+    position: absolute;
+    top: 229px;
+    font-family: myfont;
+   
+    font-size: 52px;
+    margin-left: 40px;
+    line-height: 36px;
+    width: 700px;
+}
+
+.sec-main{
+    width: 825px;
+    height: 56px;
+    position: absolute;
+    top: 316px;
+    background-color: #fff;
+    display: flex;
+    margin-left: 40px;
+    background-color: rgb(252,204,37);
+    margin-top: 18px;       
+}
+.location{
+    width: 500px;
+    height: 56px;
+    background-color: #fff;
+    display: flex;
+}
+.deliver-button{
+    width: 192px;
+    height: 56px;
+    background-color:green;
+    margin-left: 7px;
+}
+.find-button{
+    width: 118px;
+    height: 56px;
+    background-color:;
+    margin-left: 8px;
+}
+.location1{
+    width: 40px;
+    height: 56px;
+    
+}
+.location1 img{
+    width: 22px;
+    height: 20px;
+    margin-left: 18px;
+    margin-top: 18px;
+}
+.location2{
+    width: 460px;
+    height: 56px;
+
+}
+
+::-webkit-input-placeholder { font-size: 16px; }
+::-moz-placeholder { font-size: 16px; } /* firefox 19+ */
+:-ms-input-placeholder { font-size: 16px; } /* ie */
+input:-moz-placeholder { font-size: 16px; }
+
+input 
+{
+font-size:20px;
+height:20px;
+width:50%;
+text-indent:20px;
+border: none;
+outline-width: 0px;
+margin-top: 20px;
+font-family: myfont;
+}
+.deliver{
+    height: 56px;
+    width: 192px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    background-color: #fff;
+}
+.deliver img{
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.deliver p{
+    font-family: myfont;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#deliver2{
+    height: 11px;
+    width: 10px;
+    margin-top: 24px;
+    margin-left: 18px;
+
+}
+.find{
+    height: 56px;
+    width: 118px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    background-color:black;
+    border-radius: 5px;
+
+}
+.find p{
+    font-family: myfont;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+.link2{
+    height: 16px;
+    width: 1199px;
+   
+    top: 410px;
+    position: absolute;
+    display: flex;
+    font-family: myfont;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.link2 a{
+    color: black;
+}
+.link2 p{
+    margin-left: 5px;
+}
+.second-container{
+    height: 450px;
+    width: 100%;
+    background-color: #fff;
+}
+.inner-containers{
+    height: 350px;
+    width: 1200px;
+    background-color: #fff;
+    margin-top: 78px;
+    margin-left: 39px;
+    position: absolute;
+    display: flex;
+
+}
+.inner-containers img{
+    height: 240px;
+    width: 380px;
+}
+.inner-img2{
+    margin-left: 29px;
+}
+.inner-img3{
+    margin-left: 29px;
+}
+.inner-containers h2{
+    font-family: myfont;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.inner-containers a{
+    color: black;
+    font-family: myfont;
+    position: absolute;
+    top: 295px;
+}
+.third-container{
+    width: 100%;
+    height: 480px;
+   
+}
+.third-container h1{
+    font-family: myfont;
+    font-size: 40px;
+    position: absolute;
+    top: 1140px;
+    margin-left: 40px;
+}
+.third-container a{
+    margin-left: 1110px;
+    position: absolute;
+    top: 1160px;
+    color: black;
+    font-family: myfont;
+}
+.third-container img{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.fourth-container{
+    height: 360px;
+    width: 100%;
+   
+    display: flex;
+
+}
+.fourth-one li{
+    padding-top: 30px;
+    font-family: myfont;
+    padding-left: 40px;
+    list-style: none;
+    cursor: pointer;
+}
+.fourth-two li{
+    font-family: myfont;
+    padding-top: 30px;
+    padding-left: 262px;
+    list-style: none;
+    cursor: pointer;
+}
+.fourth-three li{
+    font-family: myfont;
+    padding-top: 30px;
+    padding-left: 262px;
+    list-style: none;
+    cursor: pointer;
+}
+.fourth-four li{
+    font-family: myfont;
+    padding-top: 30px;
+    padding-left: 262px;
+    list-style: none;
+    cursor: pointer;
+}
+.fifth-container{
+    height: 40px;
+    width: 100%;
+ 
+    display: flex;
+}
+.fifth-one h1{
+    font-size: 35px;
+    font-family: myfont;
+    margin-left: 30px;
+}
+.fifth-one a{
+    font-family: myfont;
+    margin-left: 1118px;
+    position: relative;
+    top: -26px;
+    color: black;
+}
+.sixth-container{
+    display: flex;
+    height: 470px;
+    width: 100%;
+    border-bottom: 1px;
+    border-color: dimgrey;
+}
+.sixth-one li{
+    padding-top: 30px;
+    font-family: myfont;
+    padding-left: 40px;
+    list-style: none;
+    cursor: pointer;
+}
+.sixth-two li{
+    font-family: myfont;
+    padding-top: 30px;
+    padding-left: 160px;
+    list-style: none;
+    cursor: pointer;
+}
+.sixth-three li{
+    font-family: myfont;
+    padding-top: 30px;
+    padding-left: 230px;
+    list-style: none;
+    cursor: pointer;
+}
+.sixth-four li{
+    font-family: myfont;
+    padding-top: 30px;
+    padding-left: 220px;
+    list-style: none;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    height: 335px;
+    display: flex;
+}
+.footer-one{
+    width: 640px;
+    height: 335px;
+    background-color: #fff;
+}
+.footer-two{
+    width: 639px;
+    height: 335px;
+    background-color: #fff;
+}
+.uber{
+    margin-top: 73px;
+   padding-left: 40px;
+}
+.apple{
+    margin-top: 152px;
+    margin-left: 40px;
+}
+.store{
+    display: flex;
+}
+
+.playstore img{
+    height: 40px;
+    width: 142px;
+    position: relative;
+    top: -43px;
+    margin-left: 150px;
+}
+.footer-two{
+    display: flex;
+}
+.two-one li{
+    padding-top: 30px;
+    font-family: myfont;
+    list-style: none;
+    cursor: pointer;
+}
+.two-two li{
+    padding-top: 30px;
+    padding-left: 107px;
+    font-family: myfont;
+    list-style: none;
+    cursor: pointer;
+}
+.footer-2{
+    width: 100%;
+    height: 190px;
+    display: flex;
+
+}
+.footer-first{
+    width: 30%;
+    height: 190px;
+}
+.footer-first img{
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer-second{
+    width: 70%;
+    height: 190px;
+ 
+}
+.footer-1{
+    display:flex;
+    height: 40px;
+    width: 880px;
+
+    
+}
+.footer-1 li{
+    margin-left: 60px;
+    padding-top: 30px;
+    font-family: myfont;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.footer-last{
+    font-family: myfont;
+    font-size: small;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
